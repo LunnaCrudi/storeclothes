@@ -3,8 +3,8 @@ body, ul{
     margin: 0px;
     padding: 0px;
 }
-a{
-    color: black;
+#menu a{
+    color: rgb(156, 144, 144);
     text-decoration: none;
     font-family: sans-serif;
 }
@@ -21,7 +21,8 @@ a:hover {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: #e7e7e7;
+    background: rgb(110,41,126);
+background: radial-gradient(circle, rgba(110,41,126,1) 0%, rgba(0,0,0,1) 100%);
 }
 #menu {
     display: flex;
@@ -31,4 +32,9 @@ a:hover {
 }
 #btn-mobile {
     display: none;
+}
+#carouselExempleInterval{
+    position: relative;
+    z-index: 10;
+    padding-top: 80px;
 }
