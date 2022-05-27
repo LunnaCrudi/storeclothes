@@ -105,6 +105,7 @@ a:hover {
     }
 }
 /*fim da responsividade menu hamburger*/
+
 /*css banner*/
 .destaque h2
 {
@@ -141,6 +142,44 @@ a:hover {
     margin: 30px 0s;
 }
 /*fim código banner (thiago)*/
+
+/*destaque*/
+.destaque h2
+{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.destaque p
+{
+    width: 77%;
+    text-align: center;
+    font-size: 14px;
+    margin: 30px auto;
+}
+
+.destaque figcaption
+{
+    font-size: 13px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.destaque a
+{
+    justify-content: center;
+    display: flex;
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 30px 0s;
+}
+/*fim destaque*/
+
 /*css novidades*/
 .novidades .text-body
 {
@@ -170,6 +209,7 @@ a:hover {
     font-weight: 400; 
 }
 /*fim css novidades*/
+
 /*css galeria*/
 .galeria
 {
@@ -195,22 +235,26 @@ a:hover {
     margin: 14px auto 50px;
 }
 /*fim do css galeria*/
+
 /* CSS Footer*/
 
 .rodape 
 {
     padding: 50px 50px 0;
+    background: rgb(86,66,113);
+    background: linear-gradient(0deg, rgba(86,66,113,1) 0%, rgba(0,0,0,1) 100%);
 }
 
 .rodape .info-contato p 
 {
     margin: 0px;
+    color: #fff;
 }
 
 .rodape a
  {
     text-decoration: none;
-    color: #000;
+    color: rgb(255, 255, 255);
     font-size: 13px;
 }
 
@@ -222,7 +266,7 @@ a:hover {
 .rodape .redes-sociais
  {
     display: inline-block;
-}
+ }
 
 .rodape .redes-sociais img 
 {
@@ -234,6 +278,8 @@ a:hover {
  {
     text-align: center;
     margin-top: 40px;
+    color: #fff;
 }
 /*css footer*/
+
 
