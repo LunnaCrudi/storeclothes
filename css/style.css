@@ -3,11 +3,15 @@ body, ul{
     margin: 0px;
     padding: 0px;
 }
+/* inicio menu loja*/
 #menu a{
     color: rgb(156, 144, 144);
     text-decoration: none;
     font-family: sans-serif;
+    margin-left: 5px;
+    /* margin left é o espaçamento entre as palavras*/
 }
+/* final menu loja*/
 a:hover {
     background: rgba(0, 0, 0, 0.05);
 }

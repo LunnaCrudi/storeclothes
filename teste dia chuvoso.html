@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>-- Teste JS --</title>
+</head>
+<body>
+    <script>
+let data_hora = new Date()
+let hora = data_hora.getHours()
+let previsao_tempo = "chuvoso"
+
+if (hora < 12){
+    alert("Bom dia!!!");
+    if (previsao_tempo == "chuvoso")
+    {
+        alert("Está chovendo, leve um guarda-chuva consigo")
+    }
+}
+else{
+    if(hora >= 12 && hora < 18)
+    {
+        alert("Boa tarde...");
+        if (previsao_tempo == "chuvoso")
+    {
+        alert("Está chovendo, leve um guarda-chuva consigo")
+    }
+    }
+    else{
+        alert("Boa noite...");
+        if (previsao_tempo == "chuvoso")
+    {
+        alert("Está chovendo, leve um guarda-chuva consigo")
+    }
+    }
+}
+    </script>
+</body>
+</html>
+<!-- quando passa o código do js para funcionar no chrome, COLOCA DENTRO DE BODY e troca -console.log- por -alert- -->
