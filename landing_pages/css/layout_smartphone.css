@@ -1,0 +1,70 @@
+.menu-header {
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #0000;
+    position: absolute;
+    top: 80px;
+    left: 0px;
+    height: 300px;
+    width: 100%;
+}
+
+.menu-barras {
+    display: initial;
+}
+
+#icone-menu {
+    color: white;
+    font-size: 30px;
+}
+
+.banner {
+    background-image: url(../img/imagem-fundo-ranking.jpg);
+}
+
+.image-sobre {
+    width: 100%;
+}
+
+.texto-sobre {
+    width: 100%;
+    height: unset;
+    /* unset redefine a altura herdada*/
+}
+
+.container-mapa {
+    width: 100%;
+    margin-top: 30px;
+}
+.container-video {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.container-mapa {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 20%;
+}
+
+.mapa-responsivo {
+    position: absolute;
+    margin-top: 10px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width:768px) {
+    .titulo-senai {
+        font-size: 42px;
+    }
+    .conteudo-info {
+        flex-direction: column;
+    }
+}
