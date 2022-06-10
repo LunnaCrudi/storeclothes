@@ -6,14 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
     <link rel="stylesheet" href="./css/estilo.css">
-    <link rel="stylesheet" href="./css/layout_tablet.css">
     <link rel="stylesheet"  href="./css/layout_smartphone.css">
+    <link rel="stylesheet" media="screen and (max-width: 1200px)" href="./css/layout_tablet.css">
     <script src="https://kit.fontawesome.com/b7a0eff3c2.js" crossorigin="anonymous"></script>
     <!-- aqui colocamos o font awesom para poder usar os links dos icones e não dar nada errado -->
 </head>
 <body>
-    <!-- Inicio do mostrar menu -->
-    <header>
+    <!-- Inicio do mostrar menu --><header>
         <div class="container-grid conteudo-header">
             <img class="logo" src="./img/logos_senai_branco.png" alt="Logo Senai">
             <nav id="menu-header" class="menu-header">
@@ -30,7 +29,8 @@
     <!-- final do mostrar menu-->
     <section class="whatsapp">
         <div class="container-grid logo-whats">
-            <a href="https://api.whatsapp.com/send?phone=5515900463716&text=Ol%C3%A1%2C%20como%20eu%20poderia%20ajudar%3F"><img src="./img/whats_black.png" style="height: 2pxx;"></a>
+            <a href="https://api.whatsapp.com/send?phone=5515900463716&text=Ol%C3%A1%2C%20como%20eu%20poderia%20ajudar%3F" target="_blank"><img src="./img/whats.png" style="height: 2pxx;" alt="Contato Whatsapp"></a>
+            <!-- o blank significa nova guia -->
         </div>
     </section>
     <main>
@@ -96,12 +96,12 @@
                 </div>
 
                 <div class="container-mapa">
-                <iframe class="mapa-responsivo" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14637.110026353093!2d-47.448846!3d-23.486512!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4ead928c70b1e690!2sEscola%20e%20Faculdade%20de%20Tecnologia%20SENAI%20Gaspar%20Ricardo%20J%C3%BAnior!5e0!3m2!1spt-PT!2sbr!4v1654214628844!5m2!1spt-PT!2sbr" width="850" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        <!-- o inframe é para deixar algo fixo no lugar independente do rolameneto de tela-->
+                    <iframe class="mapa-responsivo" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14637.110026353093!2d-47.448846!3d-23.486512!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4ead928c70b1e690!2sEscola%20e%20Faculdade%20de%20Tecnologia%20SENAI%20Gaspar%20Ricardo%20J%C3%BAnior!5e0!3m2!1spt-PT!2sbr!4v1654214628844!5m2!1spt-PT!2sbr" width="850" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <!-- o inframe é para deixar algo fixo no lugar independente do rolameneto de tela-->
                 </div>
                 <div class="container-video">
-                    <iframe class="video-responsivo" width="560" height="315" src="https://www.youtube.com/embed/P-aesuxXu9E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <!-- o inframe é para deixar algo fixo no lugar independente do rolameneto de tela-->
+                    <iframe class="video-responsivo" width="850" height="200" src="https://www.youtube.com/embed/P-aesuxXu9E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <!-- o inframe é para deixar algo fixo no lugar independente do rolameneto de tela-->
                 </div>
 
             </div>
